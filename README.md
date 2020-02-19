@@ -1,6 +1,6 @@
 # :mailbox_closed: spf_list
 
-List mailservers from spf entries by iterating over spf entries & includes.
+List mailservers from spf by iterating over spf entries & includes.
 
 Extended to allow for whitelisting and blacklisting of mailservers in postfix to speed up `postscreen` greylisting.
 
@@ -15,6 +15,11 @@ Extended to allow for whitelisting and blacklisting of mailservers in postfix to
 Add domain to whitelist
 
     ./spf_permit.sh google.com >> /etc/postfix/postscreen_access.cidr
+
+## Related Blog Posts
+
+- [Extracting Mailserver List From SPF](https://equk.co.uk/2020/02/19/extracting-mailserver-list-from-spf)
+- [Whitelisting Mailservers From SPF](https://equk.co.uk/2020/02/19/whitelisting-mailservers-from-spf)
 
 ## Postscreen
 
