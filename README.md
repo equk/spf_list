@@ -1,2 +1,3 @@
-# spf_list
-:mailbox_closed: list mailservers from spf entries
+# :mailbox_closed: spf_list
+
+List mailservers from spf entries
